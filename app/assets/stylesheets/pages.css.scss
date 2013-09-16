@@ -1,0 +1,61 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "twitter/bootstrap";
+
+.brands {
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    .brand{
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 160px;
+    }
+    #redbull {
+        background-image: url("redbull_logo3.png");
+        &:hover {
+            background-image: url("redbull_logo3-selected.png");
+        }
+    }
+    #redbull-selected-selected {
+        background-image: url("redbull_logo3-selected.png")
+    }
+
+    #EF {
+        background-image: url("EF.png");
+        &:hover {
+            background-image: url("EF-selected.png");
+        }
+    }
+    #EF-selected-selected {
+        background-image: url("EF-selected.png")
+    }
+
+    #win8 {
+        background-image: url("windows-8.png");
+        &:hover {
+            background-image: url("windows-8-selected.png");
+        }
+    }
+    #win8-selected-selected {
+        background-image: url("windows-8-selected.png")
+    }
+}
+
+.rewards{
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    img {
+    }
+    &:hover {
+        background: #37B6CE;
+    }
+}
+
+
+
